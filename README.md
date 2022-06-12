@@ -17,9 +17,9 @@ Run server
 npm run client
 ```
 
-## Docker
+## MySQL db
 You can create MySQL container by using docker-compose.yml
-# MySQL db
+### Docker
 ```
 docker-compose build mysql
 ```

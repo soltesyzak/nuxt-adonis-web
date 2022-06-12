@@ -4,7 +4,7 @@ import { schema } from '@ioc:Adonis/Core/Validator';
 import Asset from 'App/Models/Asset';
 
 export default class AssetsController {
-    public index = async (ctx: HttpContextContract) => {
+    public index = async () => {
         return Asset.all(); // SELECT * FROM mysql_db.assets
     }
 
@@ -12,15 +12,10 @@ export default class AssetsController {
         const newAssetSchema = schema.create({
             country: schema.string({ trim: true }),
             city: schema.string({ trim: true }),
-            street: schema.string({ trim: true }),
-            streetNumber: schema.number(),
-            postalCode: schema.string({ trim: true }),
             area: schema.number(),
             description: schema.string({ trim: true }),
             type: schema.string({ trim: true }),
             numberOfRooms: schema.number(),
-            energyCategory: schema.string({ trim: true }),
-            isRenovated: schema.boolean(),
             value: schema.number(),
         })
 

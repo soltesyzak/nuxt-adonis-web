@@ -1,0 +1,20 @@
+{
+  "name": "nuxt-adonis-web",
+  "version": "1.0.0",
+  "description": "Project consists of AdonisJS API server and Nuxt on frontend in Typescript. Server connects to the MySQL database, hosted locally as Docker container.",
+  "scripts": {
+    "server": "cd ./server && node ace serve --watch",
+    "client": "cd ./client && npm run dev",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soltesyzak/nuxt-adonis-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soltesyzak/nuxt-adonis-web/issues"
+  },
+  "homepage": "https://github.com/soltesyzak/nuxt-adonis-web#readme"
+}

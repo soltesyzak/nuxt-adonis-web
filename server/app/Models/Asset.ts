@@ -12,19 +12,7 @@ export default class Asset extends BaseModel {
   public city: string;
 
   @column()
-  public street: string;
-
-  @column()
-  public streetNumber: number;
-
-  @column()
-  public postalCode: string;
-
-  @column()
   public area: number;
-
-  @column()
-  public energyCategory: string;
 
   @column()
   public description: string;
@@ -34,9 +22,6 @@ export default class Asset extends BaseModel {
 
   @column()
   public numberOfRooms: number;
-
-  @column()
-  public isRenovated: boolean;
 
   @column()
   public value: number;

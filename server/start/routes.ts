@@ -24,4 +24,4 @@ Route.get('/', async () => {
   return { hello: 'world' }
 })
 
-Route.resource('/assets', 'AssetsController').apiOnly();
+Route.resource('api/assets', 'AssetsController').apiOnly();

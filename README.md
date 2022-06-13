@@ -56,3 +56,14 @@ quit mysql
 ```
 docker restart mysql_db
 ```
+
+## Tests
+
+For server
+```
+cd server
+```
+For server
+```
+node ace test
+```
